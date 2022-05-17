@@ -1,5 +1,7 @@
 syntax = "proto2";
 
+option go_package = "github.com/kingcobra2468/cot/internal/gvoice";
+
 service GVoice {
     // Sends a message to the recipient.
     rpc SendSMS (SendSMSRequest) returns (SendSMSResponse) {}
